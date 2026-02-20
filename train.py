@@ -34,7 +34,7 @@ def get_result_filename(fusion_mode=None):
 
 
 def log_results(file_path, message):
-    with open(file_path, 'a') as f:
+    with open(file_path, 'a',encoding='utf-8') as f:
         f.write(message + '\n')
         f.flush()
 
@@ -209,7 +209,14 @@ parser.add_argument("--max_seq_length", type=int, default=50)
 parser.add_argument("--train_batch_size", type=int, default=8)
 parser.add_argument("--dev_batch_size", type=int, default=128)
 parser.add_argument("--test_batch_size", type=int, default=64)
-parser.add_argument("--n_epochs", type=int, default=18)
+# 先解析已有的 --dataset 参数
+args, _ = parser.parse_known_args()
+
+# 根据dataset设置epochs默认值
+default_epochs = {"mosi": 18, "mosei": 3}
+parser.add_argument("--n_epochs", type=int, default=default_epochs[args.dataset])
+
+#parser.add_argument("--n_epochs", type=int, default=18)
 parser.add_argument("--dropout_prob", type=float, default=0.5)
 parser.add_argument("--learning_rate", type=float, default=1e-5)
 parser.add_argument("--gradient_accumulation_step", type=int, default=1)
