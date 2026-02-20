@@ -1,4 +1,4 @@
-# GICA: Gated Information Bottleneck Network with Cross-Modal Attention
+# GICA: Gate-Controlled Information Bottleneck Cross-Modal Attention Network
 
 A multimodal sentiment analysis model based on information bottleneck theory.
 
