@@ -7,7 +7,7 @@ A multimodal sentiment analysis model based on information bottleneck theory.
 Your model description text here. GICA employs the gated information bottleneck 
 method with cross-modal attention to form compact and informative latent states...
 
-![Model Architecture](assets/Model.png)
+![Model Architecture](assets/GICA.png)
 
 ## Requirements
 - Python 3.8+
