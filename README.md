@@ -22,11 +22,3 @@ python train.py --dataset mosei
 ## Training Options
 - Adjust `--batch_size` to fit memory constraints
 - Adjust `--epochs` for training duration
-
-## Citation
-@article{your_paper,
-  title={GICA: ...},
-  author={...},
-  journal={Applied Intelligence},
-  year={2025}
-}
