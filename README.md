@@ -13,9 +13,7 @@ A multimodal sentiment analysis model based on information bottleneck theory.
 git clone https://github.com/yuhaoqiang62-star/GICA.git
 pip install -r requirements.txt
 
-2. Download the datasets to `./datasets`:
-- CMU-MOSI: [https://github.com/WasifurRahman/BERT_multimodal_transformer]
-- CMU-MOSEI: [https://github.com/WasifurRahman/BERT_multimodal_transformer]
+2. Download the datasets to `./datasets` by running `download_datasets.sh`. For details, see [here](https://github.com/A2Text/MOSI).
 
 3. Train the model:
 python train.py --dataset mosi
