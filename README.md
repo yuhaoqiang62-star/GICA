@@ -14,7 +14,7 @@ method with cross-modal attention to form compact and informative latent states.
 - PyTorch 1.12+
 - transformers 4.x (DeBERTa)
 
-##Project Structure
+## Project Structure
 ├── GICA.py                  # Core GICA model (bottleneck, attention, fusion)
 ├── deberta_GICA.py          # DeBERTa integration wrapper
 ├── train.py                 # Training, evaluation, and ablation scripts
