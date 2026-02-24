@@ -15,6 +15,7 @@ method with cross-modal attention to form compact and informative latent states.
 - transformers 4.x (DeBERTa)
 
 ## Project Structure
+<pre>
 ├── GICA.py                  # Core GICA model (bottleneck, attention, fusion)
 ├── deberta_GICA.py          # DeBERTa integration wrapper
 ├── train.py                 # Training, evaluation, and ablation scripts
@@ -22,6 +23,7 @@ method with cross-modal attention to form compact and informative latent states.
 ├── requirements.txt         # Python dependencies
 ├── datasets/                # Place CMU-MOSI / CMU-MOSEI .pkl files here
 └── saved_models/            # Saved checkpoints (created at runtime)
+</pre>
 
 
 
