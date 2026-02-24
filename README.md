@@ -102,8 +102,8 @@ python train.py --dataset mosi --fusion_mode b1_visual
 # Gating mechanism ablation (no_gating / single_gating )
 python train.py --dataset mosi --gating_mode no_gating
 python train.py --dataset mosi --gating_mode single_gating
-
-
+```
+---
 ### Key Arguments
 
 | Argument | Default | Description |
