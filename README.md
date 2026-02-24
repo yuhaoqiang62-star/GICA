@@ -93,15 +93,16 @@ python train.py --load_model saved_models/best_model_mosi_full_dual_gating.pt
 ### Ablation Studies
 
 ```bash
-# Fusion mode ablation (b1_only / b1_acoustic / b1_visual / full)
-python train.py --dataset mosi --run_ablation
+# Fusion mode ablation (b1_only / b1_acoustic / b1_visual)
+python train.py --dataset mosi --fusion_mode b1_only
+python train.py --dataset mosi --fusion_mode b1_acoustic
+python train.py --dataset mosi --fusion_mode b1_visual
 
-# Gating mechanism ablation (no_gating / single_gating / dual_gating)
-python train.py --dataset mosi --run_gating_ablation
 
-# Combined ablation (all fusion x gating combinations)
-python train.py --dataset mosi --run_combined_ablation
-```
+# Gating mechanism ablation (no_gating / single_gating )
+python train.py --dataset mosi --gating_mode no_gating
+python train.py --dataset mosi --gating_mode single_gating
+
 
 ### Key Arguments
 
