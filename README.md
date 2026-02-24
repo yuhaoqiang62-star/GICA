@@ -67,7 +67,7 @@ cd GICA
 pip install -r requirements.txt
 ```
 
-**2. Download the datasets** to `./datasets`. For details, see [here](https://github.com/A2Text/MOSI).
+**2. Download the datasets** to `./datasets`. For details, see [here](https://github.com/WasifurRahman/BERT_multimodal_transformer).
 
 **3. Train the model:**
 
