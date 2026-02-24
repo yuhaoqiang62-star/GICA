@@ -133,20 +133,6 @@ python train.py --dataset mosi --run_combined_ablation
 
 ---
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{yourname2024gica,
-  title={GICA: Gate-Controlled Information Bottleneck Cross-Modal Attention Network for Multimodal Sentiment Analysis},
-  author={Qiang, ... and Shen, Junfeng},
-  journal={...},
-  year={2024}
-}
-```
-
----
 
 ## Acknowledgements
 
