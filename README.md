@@ -67,7 +67,7 @@ cd GICA
 pip install -r requirements.txt
 ```
 
-**2. Download the datasets** to `./datasets`. For details, see [CMU-MOSI / CMU-MOSEI](https://github.com/A2Text/MOSI).
+**2. Download the datasets** to `./datasets`. For details, see [here](https://github.com/A2Text/MOSI).
 
 **3. Train the model:**
 
